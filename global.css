@@ -1,7 +1,22 @@
 * {
-  margin: 70px;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: inherit, sans-serif;
+  padding-top: 70px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #fffaf3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .logo {
@@ -9,4 +24,7 @@
   width: auto;
   margin-right: 200px; 
 }
+
+
+
 
