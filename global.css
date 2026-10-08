@@ -19,6 +19,13 @@ body {
   width: 100%;
 }
 
+.nav-links {
+   display: flex; 
+   gap: 250px; 
+   padding: 30px;
+  justify-content: space-around;
+}
+
 .logo {
   height: 70px;
   width: auto;
