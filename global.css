@@ -9,7 +9,7 @@ body {
   padding-top: 100px;
 }
 
-h2 {
+h1 {
   margin-bottom: 10px;
   text-align: center;
 }
@@ -21,6 +21,7 @@ h2 {
   top: 0;
   left: 0;
   width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.186);
 }
 
 .nav-links {
@@ -35,7 +36,15 @@ h2 {
   width: auto;
   margin-right: 200px; 
 }
-
+.personajes {
+  display: block;
+  margin: 0 auto; 
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  box-shadow: 2px 0px 38px 20px rgba(255, 216, 240, 0.25);
+}
+  
 .social-icons {
   display: flex;
   flex-direction: column; 
@@ -46,12 +55,12 @@ h2 {
 }
 
 footer {
-  background-color: #fffaf3;
-  padding: 20px;;
-  position: fixed;
+  background-color: #ffd7f0;
+  padding: 20px;
   bottom: 0;
   left: 0;
   width: 100%;
+  box-shadow: -2px -14px 28px 7px rgba(0, 0, 0, 0.07);
 }
   
 
