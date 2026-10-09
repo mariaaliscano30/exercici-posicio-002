@@ -52,7 +52,7 @@ body {
   color:#ff3385;
 }
 
-h1 {
+h1, h2 {
   margin-bottom: 10px;
   text-align: center;
 }
@@ -78,7 +78,7 @@ button {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.186);
 }
 
-.productes {
+.colecciones {
   display: flex;
   flex-wrap: wrap; 
   margin: 0 auto;
