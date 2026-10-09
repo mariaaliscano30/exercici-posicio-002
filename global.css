@@ -55,7 +55,6 @@ body {
 h1, h2 {
   margin-bottom: 10px;
   text-align: center;
-  padding-top: 20px;
 }
 .personajes {
   display: block;
@@ -90,6 +89,13 @@ button {
   align-items: stretch; 
 }
 
+.productos {
+  display: block;
+  margin: 0 auto; 
+  max-width: 100%;
+  height: auto;
+  box-shadow: 2px 0px 38px 20px rgba(255, 216, 240, 0.25);
+}
 
 .card {
   display: flex;
