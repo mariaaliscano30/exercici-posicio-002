@@ -56,6 +56,7 @@ h1 {
   margin-bottom: 10px;
   text-align: center;
 }
+  
 .personajes {
   display: block;
   margin: 0 auto; 
@@ -122,18 +123,24 @@ button {
 h2 {
   margin: auto;
   padding-top: 50px;
-  text-align: left;
+  text-align: center;
 }
 
+.about {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+}
 .about-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .about-text {
-  max-width: 600px;
-  margin: 20px auto;
-  text-align: left;
+  max-width: 400px;
+  text-align: center;
+  font-family: "inter", sans-serif;
 }
 
 .foto-tienda {         
@@ -183,6 +190,6 @@ footer {
   left: 0;
   width: 100%;
 }
-  
+
 
 
