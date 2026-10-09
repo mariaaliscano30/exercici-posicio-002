@@ -40,6 +40,29 @@
   margin-right: 200px; 
 }
 
+.filtro {
+ display: flex;
+  justify-content: space-around; 
+  background-color: #fcbed33b;    
+  padding: 15px 20px;
+  margin: 20px auto;
+  max-width: 1000px;            
+  border-radius: 10px;          
+  border: 1px solid #fcbed3;
+}
+
+.filtro-item {    
+  gap: 15px;                
+  background-color: #fcbed391;
+  border-radius: 10px;   
+}
+
+.filtro-item:hover {
+        border: solid 2px #fcbed391;
+        color:#920c46;
+        cursor: pointer;
+      }
+
 .container {
   max-width: 1100px;
   margin: 0 auto;
