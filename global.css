@@ -7,6 +7,7 @@
 body {
   font-family: inherit, sans-serif;
   padding-top: 100px;
+  color:#ff3385;
 }
 
 h1 {
@@ -25,7 +26,6 @@ h1 {
 }
 
 .nav-links {
-  font-family: 'Poppins', sans-serif
   font-weight: 600;
    display: flex; 
    gap: 250px; 
@@ -34,9 +34,10 @@ h1 {
 }
 
 .nav-links a {
+  font-family: inherit, sans-serif;
   text-decoration: none;
   color: #ff3385;
-  font-size: 
+  font-size: 20px;
 }
 
 .nav-links a:hover {
@@ -72,6 +73,16 @@ h1 {
   margin-top: 10px;
   height: calc(var(--box) * 4 + 40px); 
   padding: 10px;
+}
+.social-icons a {
+  font-family: inherit, sans-serif;
+  text-decoration: none;
+  color: #ff3385;
+  font-size: 20px;
+}
+
+.social-icons a:hover {
+  color: #920c46;
 }
 
 footer {
