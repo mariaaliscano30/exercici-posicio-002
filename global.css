@@ -9,6 +9,10 @@ body {
   padding-top: 100px;
 }
 
+h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
 .navbar {
   display: flex;
   align-items: center;
@@ -34,9 +38,21 @@ body {
 
 .social-icons {
   display: flex;
-  gap: 20px;
+  flex-direction: column; 
+  gap: 10px;
   margin-top: 10px;
+  height: calc(var(--box) * 4 + 40px); 
+  padding: 10px;
 }
 
+footer {
+  background-color: #fffaf3;
+  padding: 20px;;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+  
 
 
