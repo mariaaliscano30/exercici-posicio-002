@@ -43,18 +43,16 @@
 .filtro {
  display: flex;
   justify-content: space-around; 
-  background-color: #fcbed33b;    
-  padding: 15px 20px;
-  margin: 20px auto;
-  max-width: 1000px;            
-  border-radius: 10px;          
-  border: 1px solid #fcbed3;
+  background-color: #fcbed33b;                
+  border-radius: 10px; 
+  padding: 20px;         
 }
 
 .filtro-item {    
   gap: 15px;                
   background-color: #fcbed391;
-  border-radius: 10px;   
+  border-radius: 10px;  
+  padding: 15px;
 }
 
 .filtro-item:hover {
