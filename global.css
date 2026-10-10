@@ -270,18 +270,27 @@ footer {
 
 .columnas {
       display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 100px 100px; 
-      gap: 10px;                       
+      grid-template-columns: 1fr 1fr; 
+      gap: 20px; 
+      padding-bottom: 50px;                      
     }
 
 .item {
       margin-top: 20px;
       align-items: center;
-      background: #e991c3;
+      background: #e6d4de;
       border-radius: 6px;
       color: #222;
-      display: flex;
-      justify-content: center;
+      gap: 20px;
+      padding: 30px;
     }
+
+.cajas{
+  background-color: #fffaf3;
+  padding: 15px;
+  flex-direction: column;
+  margin-bottom: 20px;
+  border-radius: 15px; 
+  box-shadow: 2px 0px 38px 20px rgba(255, 216, 240, 0.25);
+}
 
