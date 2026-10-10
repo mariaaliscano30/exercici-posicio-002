@@ -268,4 +268,20 @@ footer {
 }
 
 
+.columnas {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 100px 100px; 
+      gap: 10px;                       
+    }
+
+.item {
+      margin-top: 20px;
+      align-items: center;
+      background: #e991c3;
+      border-radius: 6px;
+      color: #222;
+      display: flex;
+      justify-content: center;
+    }
 
