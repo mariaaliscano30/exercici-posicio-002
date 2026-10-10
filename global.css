@@ -66,11 +66,48 @@
   margin: 0 auto;
 }
   
+.productos2{
+  display: flex;
+  margin: 40px;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.tarjeta {
+  flex: 1 1 260px;
+  border-radius: 15px; 
+  background-color: #f6f4e9;
+  box-shadow: 2px 0px 20px 20px rgba(228, 214, 222, 0.466);
+  padding: 30px;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.tarjeta :hover{
+  flex: 1 1 260px;
+  border-radius: 5px; 
+  background-color: #f6e9f2;
+  box-shadow: 2px 0px 20px 20px rgba(241, 156, 208, 0.466);
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.tarjeta span {
+  display: block;        
+  margin-top: 10px;      
+  position: static;      
+}
+
+
 
 body {
   font-family: inherit, sans-serif;
   padding-top: 100px;
   color:#ff3385;
+  background-color: #f6e9f2;
 }
 
 h1 {
